@@ -1,0 +1,540 @@
+2019-09-22 20:16:57,061 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-09-22 20:16:57,042 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 79) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2019-09-22 20:16:57,125 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 78) WFLYSEC0002: Activating Security Subsystem
+2019-09-22 20:16:57,115 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 71) WFLYNAM0001: Activating Naming Subsystem
+2019-09-22 20:16:57,283 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 69) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-09-22 20:16:57,092 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 81) WFLYWS0002: Activating WebServices Extension
+2019-09-22 20:16:58,485 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 62) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2019-09-22 20:16:58,777 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0003: Undertow 1.3.15.Final starting
+2019-09-22 20:16:58,871 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 58) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2019-09-22 20:16:59,870 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2019-09-22 20:17:00,399 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0014: Creating file handler for path 'C:\projects\wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-09-22 20:17:01,798 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.3.15.Final starting
+2019-09-22 20:17:01,814 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2019-09-22 20:17:01,860 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2019-09-22 20:17:01,865 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-09-22 20:17:01,897 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 32 (per class), which is derived from thread worker pool sizing.
+2019-09-22 20:17:01,901 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 8 (per class), which is derived from the number of CPUs on this host.
+2019-09-22 20:17:01,905 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-09-22 20:17:02,574 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.18.Final
+2019-09-22 20:17:02,922 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2019-09-22 20:17:02,938 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2019-09-22 20:17:03,230 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2019-09-22 20:17:03,620 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-09-22 20:17:06,627 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2019-09-22 20:17:06,623 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2019-09-22 20:17:06,643 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Digibanktransaction.ear" (runtime-name: "Digibanktransaction.ear")
+2019-09-22 20:17:06,659 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "EmployeeManagement.ear" (runtime-name: "EmployeeManagement.ear")
+2019-09-22 20:17:06,712 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "frontend.war" (runtime-name: "frontend.war")
+2019-09-22 20:17:06,713 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "backend.jar" (runtime-name: "backend.jar")
+2019-09-22 20:17:06,714 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Transactionmanagement.ear" (runtime-name: "Transactionmanagement.ear")
+2019-09-22 20:17:06,742 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\projects\wildfly-10.0.0.Final\standalone\deployments
+2019-09-22 20:17:07,024 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry lib/hibernate-core-4.3.8.Final.jar in /C:/projects/wildfly-10.0.0.Final/standalone/deployments/backend.jar  does not point to a valid jar for a Class-Path reference.
+2019-09-22 20:17:07,028 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry lib/log4j-api-2.0-beta4.jar in /C:/projects/wildfly-10.0.0.Final/standalone/deployments/backend.jar  does not point to a valid jar for a Class-Path reference.
+2019-09-22 20:17:07,029 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry lib/hibernate-commons-annotations-4.0.5.Final.jar in /C:/projects/wildfly-10.0.0.Final/standalone/deployments/backend.jar  does not point to a valid jar for a Class-Path reference.
+2019-09-22 20:17:07,035 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "frontend.war")
+2019-09-22 20:17:07,037 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "backend.jar")
+2019-09-22 20:17:07,038 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "frontend.war")
+2019-09-22 20:17:07,168 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "frontend.war")
+2019-09-22 20:17:14,738 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2019-09-22 20:17:14,881 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for emppu
+2019-09-22 20:17:15,089 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for emppu
+2019-09-22 20:17:18,236 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.deployment.unit."frontend.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."frontend.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "frontend.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class model.Employee with ClassLoader ModuleClassLoader for Module "deployment.frontend.war:main" from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70)
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:57)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:106)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:91)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: entities/EmployeeEntity
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.<init>(ClassReflectionIndex.java:80)
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: entities.EmployeeEntity from [Module "deployment.frontend.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 15 more
+
+2019-09-22 20:17:24,337 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.deployment.subunit."Transactionmanagement.ear"."frontend.war".INSTALL: org.jboss.msc.service.StartException in service jboss.deployment.subunit."Transactionmanagement.ear"."frontend.war".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of subdeployment "frontend.war" of deployment "Transactionmanagement.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.jboss.msc.service.DuplicateServiceException: Service jboss.undertow.deployment.default-server.default-host./frontend.session is already registered
+	at org.jboss.msc.service.ServiceRegistrationImpl.setInstance(ServiceRegistrationImpl.java:158)
+	at org.jboss.msc.service.ServiceControllerImpl.startInstallation(ServiceControllerImpl.java:235)
+	at org.jboss.msc.service.ServiceContainerImpl.install(ServiceContainerImpl.java:768)
+	at org.jboss.msc.service.ServiceTargetImpl.install(ServiceTargetImpl.java:223)
+	at org.jboss.msc.service.ServiceControllerImpl$ChildServiceTarget.install(ServiceControllerImpl.java:2401)
+	at org.jboss.msc.service.ServiceTargetImpl.install(ServiceTargetImpl.java:223)
+	at org.jboss.msc.service.ServiceControllerImpl$ChildServiceTarget.install(ServiceControllerImpl.java:2401)
+	at org.jboss.msc.service.ServiceBuilderImpl.install(ServiceBuilderImpl.java:317)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentProcessor.installSessionManagerFactory(UndertowDeploymentProcessor.java:421)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentProcessor.processDeployment(UndertowDeploymentProcessor.java:338)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentProcessor.deploy(UndertowDeploymentProcessor.java:133)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+
+2019-09-22 20:17:24,781 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0021: Registered web context: /frontend
+2019-09-22 20:17:24,797 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "backend.jar")]) - failure description: {
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.persistenceunit.\"backend.jar#emppu\".__FIRST_PHASE__ is missing [jboss.naming.context.java.EmpSQLDS]"],
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["jboss.deployment.unit.\"backend.jar\".POST_MODULE"],
+        "Services that may be the cause:" => [
+            "jboss.deployment.subunit.\"Transactionmanagement.ear\".\"frontend.war\".deploymentCompleteService",
+            "jboss.naming.context.java.DigiSQLDS",
+            "jboss.naming.context.java.EmpSQLDS"
+        ]
+    }
+}
+2019-09-22 20:17:24,808 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "Digibanktransaction.ear")]) - failure description: {
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.persistenceunit.\"Digibanktransaction.ear/backend.jar#emppu\".__FIRST_PHASE__ is missing [jboss.naming.context.java.DigiSQLDS]"],
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.deployment.subunit.\"Digibanktransaction.ear\".\"backend.jar\".POST_MODULE",
+            "jboss.deployment.subunit.\"Digibanktransaction.ear\".\"frontend.war\".POST_MODULE",
+            "jboss.deployment.unit.\"Digibanktransaction.ear\".POST_MODULE"
+        ],
+        "Services that may be the cause:" => [
+            "jboss.deployment.subunit.\"Transactionmanagement.ear\".\"frontend.war\".deploymentCompleteService",
+            "jboss.naming.context.java.DigiSQLDS",
+            "jboss.naming.context.java.EmpSQLDS"
+        ]
+    }
+}
+2019-09-22 20:17:24,812 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "frontend.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"frontend.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"frontend.war\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"frontend.war\"
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class model.Employee with ClassLoader ModuleClassLoader for Module \"deployment.frontend.war:main\" from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: entities/EmployeeEntity
+    Caused by: java.lang.ClassNotFoundException: entities.EmployeeEntity from [Module \"deployment.frontend.war:main\" from Service Module Loader]"}}
+2019-09-22 20:17:24,817 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "Transactionmanagement.ear")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.deployment.subunit.\"Transactionmanagement.ear\".\"frontend.war\".INSTALL" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"Transactionmanagement.ear\".\"frontend.war\".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of subdeployment \"frontend.war\" of deployment \"Transactionmanagement.ear\"
+    Caused by: org.jboss.msc.service.DuplicateServiceException: Service jboss.undertow.deployment.default-server.default-host./frontend.session is already registered"},
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.deployment.unit.\"Transactionmanagement.ear\".deploymentCompleteService is missing [jboss.deployment.subunit.\"Transactionmanagement.ear\".\"frontend.war\".deploymentCompleteService]"],
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["jboss.deployment.unit.\"Transactionmanagement.ear\".CLEANUP"],
+        "Services that may be the cause:" => [
+            "jboss.deployment.subunit.\"Transactionmanagement.ear\".\"frontend.war\".deploymentCompleteService",
+            "jboss.naming.context.java.DigiSQLDS",
+            "jboss.naming.context.java.EmpSQLDS"
+        ]
+    }
+}
+2019-09-22 20:17:25,023 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 59) WFLYSRV0010: Deployed "Transactionmanagement.ear" (runtime-name : "Transactionmanagement.ear")
+2019-09-22 20:17:25,026 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 59) WFLYSRV0010: Deployed "frontend.war" (runtime-name : "frontend.war")
+2019-09-22 20:17:25,026 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 59) WFLYSRV0010: Deployed "EmployeeManagement.ear" (runtime-name : "EmployeeManagement.ear")
+2019-09-22 20:17:25,027 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 59) WFLYSRV0010: Deployed "Digibanktransaction.ear" (runtime-name : "Digibanktransaction.ear")
+2019-09-22 20:17:25,028 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 59) WFLYSRV0010: Deployed "backend.jar" (runtime-name : "backend.jar")
+2019-09-22 20:17:25,041 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."Transactionmanagement.ear"."frontend.war".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."Transactionmanagement.ear".deploymentCompleteService] 
+      service jboss.naming.context.java.DigiSQLDS (missing) dependents: [service jboss.persistenceunit."Digibanktransaction.ear/backend.jar#emppu".__FIRST_PHASE__] 
+      service jboss.naming.context.java.EmpSQLDS (missing) dependents: [service jboss.persistenceunit."backend.jar#emppu".__FIRST_PHASE__] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."frontend.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."frontend.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "frontend.war"
+      service jboss.deployment.subunit."Transactionmanagement.ear"."frontend.war".INSTALL: org.jboss.msc.service.StartException in service jboss.deployment.subunit."Transactionmanagement.ear"."frontend.war".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of subdeployment "frontend.war" of deployment "Transactionmanagement.ear"
+
+2019-09-22 20:17:25,422 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-09-22 20:17:25,423 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-09-22 20:17:25,423 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started (with errors) in 104500ms - Started 484 of 797 services (10 services failed or missing dependencies, 410 services are lazy, passive or on-demand)
+2019-09-22 20:17:25,694 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.2.3.Final
+2019-09-22 20:17:25,794 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment backend.jar (runtime-name: backend.jar) in 186ms
+2019-09-22 20:17:25,808 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment frontend.war (runtime-name: frontend.war) in 204ms
+2019-09-22 20:17:25,810 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: frontend.war) in 199ms
+2019-09-22 20:17:25,812 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: backend.jar) in 201ms
+2019-09-22 20:17:25,815 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment Digibanktransaction.ear (runtime-name: Digibanktransaction.ear) in 207ms
+2019-09-22 20:17:25,866 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: frontend.war) in 255ms
+2019-09-22 20:17:25,867 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment Transactionmanagement.ear (runtime-name: Transactionmanagement.ear) in 259ms
+2019-09-22 20:17:26,244 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "Transactionmanagement.ear" (runtime-name: "Transactionmanagement.ear")
+2019-09-22 20:17:26,247 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "Digibanktransaction.ear" (runtime-name: "Digibanktransaction.ear")
+2019-09-22 20:17:26,248 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "backend.jar" (runtime-name: "backend.jar")
+2019-09-22 20:17:26,250 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "frontend.war" (runtime-name: "frontend.war")
+2019-09-22 20:17:26,251 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.persistenceunit."Digibanktransaction.ear/backend.jar#emppu".__FIRST_PHASE__ (missing) dependents: [service jboss.deployment.subunit."Digibanktransaction.ear"."backend.jar".POST_MODULE, service jboss.deployment.unit."Digibanktransaction.ear".POST_MODULE, service jboss.deployment.subunit."Digibanktransaction.ear"."frontend.war".POST_MODULE] 
+      service jboss.persistenceunit."backend.jar#emppu".__FIRST_PHASE__ (missing) dependents: [service jboss.deployment.unit."backend.jar".POST_MODULE] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."frontend.war".POST_MODULE
+      service jboss.deployment.subunit."Transactionmanagement.ear"."frontend.war".INSTALL
+
+2019-09-22 20:17:30,384 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found frontend.war in deployment directory. To trigger deployment create a file called frontend.war.dodeploy
+2019-09-22 20:17:30,385 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found backend.jar in deployment directory. To trigger deployment create a file called backend.jar.dodeploy
+2019-09-22 20:17:30,386 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found Digibanktransaction.ear in deployment directory. To trigger deployment create a file called Digibanktransaction.ear.dodeploy
+2019-09-22 20:17:30,386 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found Transactionmanagement.ear in deployment directory. To trigger deployment create a file called Transactionmanagement.ear.dodeploy
+2019-09-22 20:21:40,952 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2019-09-22 20:21:41,857 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2019-09-22 20:21:42,088 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2019-09-22 20:21:42,091 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\projects\wildfly-10.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_181\jre
+	java.io.tmpdir = C:\Users\Adi\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\Adi\Downloads\Compressed\eclipse-jee-2018-12-R-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_181-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\projects\wildfly-10.0.0.Final
+	jboss.host.name = desktop-7hu27ro
+	jboss.modules.dir = C:\projects\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-7hu27ro
+	jboss.qualified.host.name = desktop-7hu27ro
+	jboss.server.base.dir = C:\projects\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\projects\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\projects\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\projects\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\projects\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = desktop-7hu27ro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\projects\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\projects\wildfly-10.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\projects\wildfly-10.0.0.Final\modules
+	org.jboss.boot.log.file = C:\projects\wildfly-10.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 10.x at localhost
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_181\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\projects\wildfly-10.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\projects\wildfly-10.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = C:\projects\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\Adi
+	user.language = en
+	user.name = Adi
+	user.script = 
+	user.timezone = Africa/Harare
+	user.variant = 
+2019-09-22 20:21:42,093 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x at localhost -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\projects\wildfly-10.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\projects\wildfly-10.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\projects\wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2019-09-22 20:21:48,948 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment backend.jar
+2019-09-22 20:21:48,973 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment Digibanktransaction.ear
+2019-09-22 20:21:49,025 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment frontend.war
+2019-09-22 20:21:49,035 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment Transactionmanagement.ear
+2019-09-22 20:21:49,040 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EmployeeManagement.ear in deployment directory. To trigger deployment create a file called EmployeeManagement.ear.dodeploy
+2019-09-22 20:21:49,040 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found frontend.war in deployment directory. To trigger deployment create a file called frontend.war.dodeploy
+2019-09-22 20:21:49,045 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found backend.jar in deployment directory. To trigger deployment create a file called backend.jar.dodeploy
+2019-09-22 20:21:49,045 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Digibanktransaction.ear in deployment directory. To trigger deployment create a file called Digibanktransaction.ear.dodeploy
+2019-09-22 20:21:49,045 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Transactionmanagement.ear in deployment directory. To trigger deployment create a file called Transactionmanagement.ear.dodeploy
+2019-09-22 20:21:49,293 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-09-22 20:21:49,391 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.4.Final
+2019-09-22 20:21:49,443 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.4.Final
+2019-09-22 20:21:49,987 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2019-09-22 20:21:50,012 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2019-09-22 20:21:50,068 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2019-09-22 20:21:50,073 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-09-22 20:21:50,101 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
+2019-09-22 20:21:50,218 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-09-22 20:21:50,241 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2019-09-22 20:21:50,297 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.3.15.Final starting
+2019-09-22 20:21:50,324 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2019-09-22 20:21:51,548 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2019-09-22 20:21:51,603 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2019-09-22 20:21:52,478 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\projects\wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-09-22 20:21:53,453 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2019-09-22 20:21:53,783 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 32 (per class), which is derived from thread worker pool sizing.
+2019-09-22 20:21:53,788 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 8 (per class), which is derived from the number of CPUs on this host.
+2019-09-22 20:21:53,912 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2019-09-22 20:21:53,974 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.18.Final
+2019-09-22 20:21:53,968 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-09-22 20:21:54,003 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-09-22 20:21:54,164 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2019-09-22 20:21:54,708 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2019-09-22 20:21:54,762 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Transactionmanagement.ear" (runtime-name: "Transactionmanagement.ear")
+2019-09-22 20:21:54,762 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "backend.jar" (runtime-name: "backend.jar")
+2019-09-22 20:21:54,762 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "Digibanktransaction.ear" (runtime-name: "Digibanktransaction.ear")
+2019-09-22 20:21:54,767 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "EmployeeManagement.ear" (runtime-name: "EmployeeManagement.ear")
+2019-09-22 20:21:54,767 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "frontend.war" (runtime-name: "frontend.war")
+2019-09-22 20:21:54,858 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\projects\wildfly-10.0.0.Final\standalone\deployments
+2019-09-22 20:21:54,998 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2019-09-22 20:21:55,438 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2019-09-22 20:21:55,803 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry lib/hibernate-core-4.3.8.Final.jar in /C:/projects/wildfly-10.0.0.Final/standalone/deployments/backend.jar  does not point to a valid jar for a Class-Path reference.
+2019-09-22 20:21:55,808 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry lib/log4j-api-2.0-beta4.jar in /C:/projects/wildfly-10.0.0.Final/standalone/deployments/backend.jar  does not point to a valid jar for a Class-Path reference.
+2019-09-22 20:21:55,808 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry lib/hibernate-commons-annotations-4.0.5.Final.jar in /C:/projects/wildfly-10.0.0.Final/standalone/deployments/backend.jar  does not point to a valid jar for a Class-Path reference.
+2019-09-22 20:21:55,823 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "frontend.war")
+2019-09-22 20:21:55,831 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "frontend.war")
+2019-09-22 20:21:55,831 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "backend.jar")
+2019-09-22 20:21:56,345 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-09-22 20:21:56,568 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2019-09-22 20:21:56,848 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for emppu
+2019-09-22 20:21:56,838 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for emppu
+2019-09-22 20:21:57,288 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service jboss.deployment.unit."frontend.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."frontend.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "frontend.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class model.Employee with ClassLoader ModuleClassLoader for Module "deployment.frontend.war:main" from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70)
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:57)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:106)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:91)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: entities/EmployeeEntity
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.<init>(ClassReflectionIndex.java:80)
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: entities.EmployeeEntity from [Module "deployment.frontend.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 15 more
+
+2019-09-22 20:21:59,823 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 61) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context '/frontend'
+2019-09-22 20:22:03,658 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "frontend.war")
+2019-09-22 20:22:03,661 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "backend.jar")
+2019-09-22 20:22:03,758 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for emppu
+2019-09-22 20:22:03,953 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /frontend
+2019-09-22 20:22:03,973 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "backend.jar")]) - failure description: {
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.persistenceunit.\"backend.jar#emppu\".__FIRST_PHASE__ is missing [jboss.naming.context.java.EmpSQLDS]"],
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["jboss.deployment.unit.\"backend.jar\".POST_MODULE"],
+        "Services that may be the cause:" => [
+            "jboss.naming.context.java.DigiSQLDS",
+            "jboss.naming.context.java.EmpSQLDS"
+        ]
+    }
+}
+2019-09-22 20:22:03,981 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "Digibanktransaction.ear")]) - failure description: {
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.persistenceunit.\"Digibanktransaction.ear/backend.jar#emppu\".__FIRST_PHASE__ is missing [jboss.naming.context.java.DigiSQLDS]"],
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.deployment.subunit.\"Digibanktransaction.ear\".\"backend.jar\".POST_MODULE",
+            "jboss.deployment.subunit.\"Digibanktransaction.ear\".\"frontend.war\".POST_MODULE",
+            "jboss.deployment.unit.\"Digibanktransaction.ear\".POST_MODULE"
+        ],
+        "Services that may be the cause:" => [
+            "jboss.naming.context.java.DigiSQLDS",
+            "jboss.naming.context.java.EmpSQLDS"
+        ]
+    }
+}
+2019-09-22 20:22:03,983 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "EmployeeManagement.ear")]) - failure description: {
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.persistenceunit.\"EmployeeManagement.ear/backend.jar#emppu\".__FIRST_PHASE__ is missing [jboss.naming.context.java.EmpSQLDS]"],
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.deployment.subunit.\"EmployeeManagement.ear\".\"backend.jar\".POST_MODULE",
+            "jboss.deployment.subunit.\"EmployeeManagement.ear\".\"frontend.war\".POST_MODULE",
+            "jboss.deployment.unit.\"EmployeeManagement.ear\".POST_MODULE"
+        ],
+        "Services that may be the cause:" => [
+            "jboss.naming.context.java.DigiSQLDS",
+            "jboss.naming.context.java.EmpSQLDS"
+        ]
+    }
+}
+2019-09-22 20:22:03,988 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "frontend.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"frontend.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"frontend.war\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"frontend.war\"
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class model.Employee with ClassLoader ModuleClassLoader for Module \"deployment.frontend.war:main\" from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: entities/EmployeeEntity
+    Caused by: java.lang.ClassNotFoundException: entities.EmployeeEntity from [Module \"deployment.frontend.war:main\" from Service Module Loader]"}}
+2019-09-22 20:22:04,273 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "Transactionmanagement.ear" (runtime-name : "Transactionmanagement.ear")
+2019-09-22 20:22:04,274 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "frontend.war" (runtime-name : "frontend.war")
+2019-09-22 20:22:04,274 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "EmployeeManagement.ear" (runtime-name : "EmployeeManagement.ear")
+2019-09-22 20:22:04,274 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "Digibanktransaction.ear" (runtime-name : "Digibanktransaction.ear")
+2019-09-22 20:22:04,274 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "backend.jar" (runtime-name : "backend.jar")
+2019-09-22 20:22:04,278 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java.DigiSQLDS (missing) dependents: [service jboss.persistenceunit."Digibanktransaction.ear/backend.jar#emppu".__FIRST_PHASE__] 
+      service jboss.naming.context.java.EmpSQLDS (missing) dependents: [service jboss.persistenceunit."backend.jar#emppu".__FIRST_PHASE__, service jboss.persistenceunit."EmployeeManagement.ear/backend.jar#emppu".__FIRST_PHASE__] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."frontend.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."frontend.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "frontend.war"
+
+2019-09-22 20:22:04,898 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-09-22 20:22:04,900 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-09-22 20:22:04,900 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started (with errors) in 25061ms - Started 474 of 782 services (11 services failed or missing dependencies, 406 services are lazy, passive or on-demand)
+2019-09-22 20:22:05,194 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: frontend.war) in 26ms
+2019-09-22 20:22:05,194 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: backend.jar) in 27ms
+2019-09-22 20:22:05,198 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment backend.jar (runtime-name: backend.jar) in 30ms
+2019-09-22 20:22:05,198 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment frontend.war (runtime-name: frontend.war) in 33ms
+2019-09-22 20:22:05,204 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: backend.jar) in 37ms
+2019-09-22 20:22:05,204 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: frontend.war) in 37ms
+2019-09-22 20:22:05,215 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment Digibanktransaction.ear (runtime-name: Digibanktransaction.ear) in 48ms
+2019-09-22 20:22:05,223 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment EmployeeManagement.ear (runtime-name: EmployeeManagement.ear) in 57ms
+2019-09-22 20:22:05,941 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "Digibanktransaction.ear" (runtime-name: "Digibanktransaction.ear")
+2019-09-22 20:22:05,945 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "backend.jar" (runtime-name: "backend.jar")
+2019-09-22 20:22:05,945 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "frontend.war" (runtime-name: "frontend.war")
+2019-09-22 20:22:05,945 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "EmployeeManagement.ear" (runtime-name: "EmployeeManagement.ear")
+2019-09-22 20:22:05,950 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.persistenceunit."Digibanktransaction.ear/backend.jar#emppu".__FIRST_PHASE__ (missing) dependents: [service jboss.deployment.subunit."Digibanktransaction.ear"."backend.jar".POST_MODULE, service jboss.deployment.unit."Digibanktransaction.ear".POST_MODULE, service jboss.deployment.subunit."Digibanktransaction.ear"."frontend.war".POST_MODULE] 
+      service jboss.persistenceunit."EmployeeManagement.ear/backend.jar#emppu".__FIRST_PHASE__ (missing) dependents: [service jboss.deployment.subunit."EmployeeManagement.ear"."backend.jar".POST_MODULE, service jboss.deployment.unit."EmployeeManagement.ear".POST_MODULE, service jboss.deployment.subunit."EmployeeManagement.ear"."frontend.war".POST_MODULE] 
+      service jboss.persistenceunit."backend.jar#emppu".__FIRST_PHASE__ (missing) dependents: [service jboss.deployment.unit."backend.jar".POST_MODULE] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."frontend.war".POST_MODULE
+
+2019-09-22 20:22:09,632 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found EmployeeManagement.ear in deployment directory. To trigger deployment create a file called EmployeeManagement.ear.dodeploy
+2019-09-22 20:22:09,636 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found frontend.war in deployment directory. To trigger deployment create a file called frontend.war.dodeploy
+2019-09-22 20:22:09,636 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found backend.jar in deployment directory. To trigger deployment create a file called backend.jar.dodeploy
+2019-09-22 20:22:09,636 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found Digibanktransaction.ear in deployment directory. To trigger deployment create a file called Digibanktransaction.ear.dodeploy
+2019-09-22 20:22:35,423 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-3) /index.xhtml @16,66 value="#{employeecontroller.employee.name}": Target Unreachable, identifier 'employeecontroller' resolved to null: javax.el.PropertyNotFoundException: /index.xhtml @16,66 value="#{employeecontroller.employee.name}": Target Unreachable, identifier 'employeecontroller' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045)
+	at javax.faces.component.UIInput.validate(UIInput.java:975)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:253)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1195)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:284)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:263)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:174)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:793)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'employeecontroller' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:173)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 41 more
+
+2019-09-22 20:22:35,431 ERROR [io.undertow.request] (default task-3) UT005023: Exception handling request to /frontend/index.xhtml;jsessionid=dWMKv4pTx4FTNHdJa4OVIWoSDdUHrrKsKHfYGNa5.desktop-7hu27ro: javax.servlet.ServletException: /index.xhtml @16,66 value="#{employeecontroller.employee.name}": Target Unreachable, identifier 'employeecontroller' resolved to null
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:284)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:263)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:174)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:793)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.PropertyNotFoundException: /index.xhtml @16,66 value="#{employeecontroller.employee.name}": Target Unreachable, identifier 'employeecontroller' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045)
+	at javax.faces.component.UIInput.validate(UIInput.java:975)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:253)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1195)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	... 27 more
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'employeecontroller' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:173)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 41 more
+
